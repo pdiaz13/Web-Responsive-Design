@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+   background: url(file:///C:/Users/prisc/Downloads/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg), hsl(257, 40%, 49%);
+}
+
+.container{
+    margin-top: 45px;
+    display:flex;
+    justify-content: center;
+}
+img{
+    width: 452px;
+    margin:20px;
+}
+
+.sec-right{
+    text-align:center;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  margin-top: 60px;
+}
+
+button {
+    width:65px;
+    height: 45px;
+    border-radius: 45px;
+    color: whitesmoke;
+    background-color:rgb(230, 65, 180);
+    border-style: none;
+    cursor: pointer;
+    font-family: 'arial';
+    font-weight:700;    
+}
+button:hover{
+    background-color: hsla(256, 100%, 95%, 0.425) ;
+}
+footer{
+  display: flex;
+   justify-content:right;
+}
+.social-buttons{
+    color: whitesmoke;
+    
+}
+.social-buttons a{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: hsla(256, 100%, 95%, 0.425) ;
+    border-radius: 50%;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, .4);
+}
+.social-buttons a:hover{
+    background-color:blueviolet;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width:83%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+  }

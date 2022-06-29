@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html meta lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ECO EDUCACIÓN</title>
+<!-- css-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <img src="eco.png" width="230px">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Acercade">Acerca de</a></li>
+                <li><a href="#Articulos">ART&Iacute;CULOS</a></li>
+            </ul>
+            
+        </nav>
+        <button><a href="#contacto">Contacto</a></button>
+    </header>
+  
+    <div class="text">
+        <h1> Bienvenid@s a ECO EDUCACI&Oacute;N</h1>
+        <h3> Todo lo que necesitas saber sobre Ecología en nuestro país.</h3>  
+    </div>
+<br> <br>
+
+    <div class="container-box">
+        <a name="Articulos" ></a>
+        <div class="box"> 
+            <a href="https://www.argentina.gob.ar/ambiente/capacitacion-ambiental"> 
+            <p> Capacitaciones para <br> acción ambiental 
+            </p></a> </div>
+        
+        <div class="box">
+            <a href="https://www.argentina.gob.ar/ambiente/gobernanza-ambiental">
+            <p> Programa <br>Gobernanza Ambiental
+            </p></a></div> 
+
+        <div class="box">
+            <a href="https://www.argentina.gob.ar/ambiente/contenidos/escazu">
+            <p> Acuerdo <br> de <br>Escaz&uacute;</p></a></div>
+
+        <div class="box">
+            <a href="https://www.argentina.gob.ar/ambiente/contenidos/neutralidad-de-carbono">
+            <p> Carbono <br>Neutral</p></a></div>
+
+        <div class="box">
+            <a href="https://www.argentina.gob.ar/ambiente/contenidos/areas-protegidas">
+            <p> &Aacute;reas <br>Protegidas</p></a></div>
+    </div>
+    <br>
+    <a name="contacto"></a>
+            <form id="survey-form">
+            <h1> Contacto</h1>
+        <h3> Completa el formulario para recibir información sobre Educaci&oacute;n Ambiental.</h3>
+
+                <label id="name-label"><b>Nombre:</b></label> <br>
+                <input id="name" type="name" name="name" class="form" required placeholder="Nombre Completo"><br>
+              
+                <label id="email-label"><b>Email:</b></label>  <br>
+                <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+              
+                <label id="number-label"><b>Edad:</b></label>   <br>
+                <input id="number" type="number" name="number" class="form" min="16" max="99" placeholder="+16"><br>   
+        
+                <label id="dropdown-label"><strong>Provincia </strong></label><br>
+                <select id="dropdown" name="code-lang" class="form">
+                    <option value="Capital Federal">Capital Federal</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                  <option value="Jujuy">Jujuy</option>
+                  <option value="La Pampa">La Pampa</option>
+                  <option value="La Rioja">La Rioja</option>
+                  <option value="Mendoza">Mendoza</option>
+                  <option value="Misiones">Misiones</option>
+                  <option value="Neuquén"> Neuquén</option>
+                  <option value="Rio Negro">Rio Negro</option>
+                  <option value="Salta">Salta</option>
+                  <option value="San Juan">San Juan</option>
+                  <option value="San Luis">San Luis</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+                  <option value="Santa Fe">Santa Fe</option>
+                  <option value="Santiago del Estero">Santiago del Estero</option>
+                  <option value="Tierra del Fuego">Tierra del Fuego</option>
+                  <option value="Tucumán">Tucumán</option>
+                </select>
+            <br>
+                    <label id="comments-label"><strong>Mensaje:</strong></label><br>
+                    <textarea  class="form" placeholder="Mensaje..."></textarea><br>
+                    <input id="submit" type="submit"  class="form">
+                 
+            </form>
+        <br>
+        </div>
+<footer><p> &copy;ECO Educaci&oacute;n </p></footer>
+</body>
+</html>
